@@ -54,22 +54,51 @@ public class ControlStatementsDemo {
 //		}
 //	
  
+//		
+////		ternary operator
+//		int a = 5;
+//		int b = 0;
+//		
+////		if(a>2)
+////			b = 2;
+////		else 
+////			b = a;
+////			condi	?	  exp1   :    exp2
+//		b = a>2     ?     2     :      a   ; 
+////		   true -> exp 1 
+////			false -> exp2
+//		
+//		System.out.println(a);
+//		System.out.println(b);
 		
-//		ternary operator
-		int a = 5;
-		int b = 0;
+//		iteration statements or looping statements 
 		
-//		if(a>2)
-//			b = 2;
-//		else 
-//			b = a;
-//			condi	?	  exp1   :    exp2
-		b = a>2     ?     2     :      a   ; 
-//		   true -> exp 1 
-//			false -> exp2
+		// * * * *
+		// * * * *
+		// * * * *
+		// * * * *
 		
-		System.out.println(a);
-		System.out.println(b);
+//		System.out.print("* ");
+//		System.out.print("* ");
+//		System.out.print("* ");
+//		System.out.print("* ");
+//		//* * * * 
+//		System.out.println();
+//		System.out.print("* ");
+//		System.out.print("* ");
+//		System.out.print("* ");
+//		System.out.print("* ");
+		
+//		int i = 3;//initialise a value
+//		do {
+//			System.out.println("not yet counted down to 3");
+//			i--;
+//		}while(i == 3);//-> false 
+		//* * * * 
+		
+		for(int j = 1; j<=10; j++) {
+			System.out.println("j is not counted ten yet and j value is " + j);
+		}
 	
 	}
 
