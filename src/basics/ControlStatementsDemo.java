@@ -6,100 +6,90 @@ public class ControlStatementsDemo {
 		// TODO Auto-generated method stub
 		/*
 		 * selection statements 
-		 * 
 		 * if if else 
 		 * else if 
-		 * switch
+		 * switch case 
+		 * 
+		 * looping statements 
+		 * while loop 
+		 * do while loop 
+		 * for loop 
+		 * 
+		 * jupming statements 
+		 * break 
+		 * continue 
 		 * 
 		 */
-//		int a = 5;
+		
+		
+//		String a = "gokul";
+//		String b = " B";
+//		System.out.println(a + b);
+		
+//		int a = 9;
 //		
-//		//even or odd 
-//		if(a==0) {//a/2 getting the rem ==  0 -> true | false 
-//			System.out.println(a + " is a whole num");
+//		if(a == 0) {
+////		rem num  == 0	-> true  or else -> false 
+//			System.out.println(a + " is a whole num");//'9'
 //		}
-//		else if(a%2==0) {
-//				System.out.println(a + " is an even num");
+//		else if( a%2 == 0 ) {
+//				System.out.println(a + " is a even num");
 //		}
-//		else if(a==5) {
+//		else if (a == 5) {
 //			System.out.println(a + " is a wonderfull num");
 //		}
 //		else {
-//				System.out.println(a + " is an odd num");
+//				System.out.println("the number " + a + " is a odd num");//  
 //		}
-//		
 		
-// switch 
+//		char i = '#';
+//		String str = "pen";
 		
-//		int i = 3;
-//		
+		//switch case 
+		
 //		switch(i) {
-//		case 1:// 1 == 3 ->false 
+//		case 'a':
 //			System.out.println("one");
 //			break;
-//		case 2://->false 
+//		case 'b':
 //			System.out.println("two");
 //			break;
-//		case 3://3 == 3 -> true 
+//		case '#':
 //			System.out.println("three");
 //			break;
 //		case 4:
 //			System.out.println("four");
 //			break;
-//		case 5:
+//		case 'p':
 //			System.out.println("five");
 //			break;
 //		default:
-//			System.out.println("The number dosnt match with the cases");
+//			System.out.println("The number dosnt match with cases");	
 //		}
-//	
- 
-//		
-////		ternary operator
-//		int a = 5;
-//		int b = 0;
-//		
-////		if(a>2)
-////			b = 2;
-////		else 
-////			b = a;
-////			condi	?	  exp1   :    exp2
-//		b = a>2     ?     2     :      a   ; 
-////		   true -> exp 1 
-////			false -> exp2
-//		
-//		System.out.println(a);
-//		System.out.println(b);
+
 		
-//		iteration statements or looping statements 
+//		iteration statements 
+		/*
+		 * while 
+		 * do while 
+		 * for 
+		 * 
+		 */
+		//talkalot 
 		
-		// * * * *
-		// * * * *
-		// * * * *
-		// * * * *
 		
-//		System.out.print("* ");
-//		System.out.print("* ");
-//		System.out.print("* ");
-//		System.out.print("* ");
-//		//* * * * 
-//		System.out.println();
-//		System.out.print("* ");
-//		System.out.print("* ");
-//		System.out.print("* ");
-//		System.out.print("* ");
-		
-//		int i = 3;//initialise a value
-//		do {
-//			System.out.println("not yet counted down to 3");
-//			i--;
-//		}while(i == 3);//-> false 
-		//* * * * 
-		
-		for(int j = 1; j<=10; j++) {
-			System.out.println("j is not counted ten yet and j value is " + j);
+//		int i = 11;// initialization part 
+//		do{ 
+//			//statements
+//			System.out.println("talkalot"); 
+//			i++;// incrementaion part 
+//		}while(i <= 10) ;// comparision 
+
+		for(int i = 1; i <= 10; i++) {
+			System.out.println("talkalot"); 
 		}
-	
+		
+		
 	}
 
 }
