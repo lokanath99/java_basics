@@ -46,21 +46,22 @@ public class ControlStatementsDemo {
 //		String str = "pen";
 		
 		//switch case 
-		
+//		int i = 3;
+//		
 //		switch(i) {
-//		case 'a':
+//		case 1:
 //			System.out.println("one");
 //			break;
-//		case 'b':
+//		case 2:
 //			System.out.println("two");
 //			break;
-//		case '#':
+//		case 3:
 //			System.out.println("three");
 //			break;
 //		case 4:
 //			System.out.println("four");
 //			break;
-//		case 'p':
+//		case 5:
 //			System.out.println("five");
 //			break;
 //		default:
@@ -85,11 +86,50 @@ public class ControlStatementsDemo {
 //			i++;// incrementaion part 
 //		}while(i <= 10) ;// comparision 
 
-		for(int i = 1; i <= 10; i++) {
-			System.out.println("talkalot"); 
+//		for(int i = 1; i <= 10; i++) {
+//			System.out.println("talkalot"); 
+//		}
+//		System.out.println();
+		
+/*		* * * *
+ * 		* * * *	
+ * 		* * * *
+ * 		* * * *
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+//		{2, 6, 5, 9, 63 ,89} -> 1D array
+//		{{},{},{},{}} ->2d arrays / multi D array 
+//		1 2 3 4
+//		1 2 3 4
+//		1 2 3 4
+//		1 2 3 4
+		
+		for(int j = 1; j <= 4; j++) {
+			for(int i = 1; i <= 4; i++) {
+				System.out.print(i + " ");
+			}
+			System.out.println();
+	//		* * * *
 		}
 		
+//		1 1 1 1 
+//		2 2 2 2
+//		3 3 3 3 
+//		4 4 4 4 
 		
+//		*
+//		* * 
+//		* * * 
+//		* * * * 
+	
+//		1
+//		1 2 
+//		1 2 3
+//		1 2 3 4
 	}
 
 }
