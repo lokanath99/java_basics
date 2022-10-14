@@ -15,11 +15,11 @@ public class VariablesDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// datatype varableName = value
+//		// datatype varableName = value
 //		String noun = "pen";//noun = pen\n
 //		char charr = '#'; 
 //		System.out.println(charr);
-//		/*
+		/*
 //		 * 
 //		 * 
 //		 * 
@@ -68,7 +68,7 @@ public class VariablesDemo {
 ////								true  or 	false  -> true 
 //		System.out.println(res);
 //	
-	
+		
 	
 	
 	}

@@ -1,5 +1,7 @@
 package basics;
 
+import java.util.Scanner;
+
 public class FunctionsDemo {
 /*
  * function / methods 
@@ -24,11 +26,15 @@ public class FunctionsDemo {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str = "talkalot";
-		int a = 2, b = 5;
-		System.out.println( Math.pow(a, b) );//8
-		int res = add(a,b);//function call 
-		System.out.println(res);//5
+//		String str = "talkalot";
+//		int a = 2, b = 5;
+//		System.out.println( Math.pow(a, b) );//8
+//		int res = add(a,b);//function call 
+//		System.out.println(res);//5
+		
+		Scanner sc = new Scanner(System.in);
+		int b = sc.nextInt(); 
+		sc.close();
 		int res2 = factorial(b);//120
 		System.out.println(res2);
 		
