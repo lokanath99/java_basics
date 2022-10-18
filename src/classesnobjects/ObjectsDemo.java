@@ -22,7 +22,8 @@ public class ObjectsDemo
 		
 		
 //		int num[] = new int[5];//1D
-//		Scanner sc = new Scanner(System.in);
+//		referencing = creating an object 
+//		Scanner sc  = new Scanner(System.in);//intanciating an object 
 //		
 //		for(int i = 0 ; i < 5 ; i++) {
 //			System.out.println("enter the "+i+"th element");
@@ -32,22 +33,26 @@ public class ObjectsDemo
 //		
 //		
 //		int num[][] = new int[2][5];
-		int num[][] = {
-				{1,3,5,7,9},//0
-//				 0 1 2 3 4 
-				{0,2,4,6,8,10}	//1 //jagged array
-//				 0 1 2 3 4 
-		};//2D array
+//		int num[][] = {
+//				{1,3,5,7,9},//0
+////				 0 1 2 3 4 
+//				{0,2,4,6,8},//1 //jagged array
+////				 0 1 2 3 4 
+//				{1,2,3,4,5} //2
+////				 0 1 2 3 4
+//		};//2D array
+		
+//		System.out.println(num[2][4]);
 
-//		enhanced for loop 
-		for(int k[] : num) {//k {1,3,5,7,9}1st , {0,2,4,6,8}2nd	
-			for(int l : k ) {// l =  1 3 5 7 9 1st, 0 2 4 6 8 2nd
-				System.out.print(l + " ");
-			}
-			System.out.println();
-		}
-		
-		
+////		enhanced for loop 
+//		for(int k[] : num) {//k {1,3,5,7,9}1st , {0,2,4,6,8}2nd	
+//			for(int l : k ) {// l =  1 3 5 7 9 1st, 0 2 4 6 8 2nd
+//				System.out.print(l + " ");
+//			}
+//			System.out.println();
+//		}
+//		
+//		
 //		for(int i = 0; i < num.length; i++) {
 //			for(int j= 0; j < num[i].length; j++) {
 //				System.out.print( num[i][j] + " " );
@@ -82,8 +87,8 @@ public class ObjectsDemo
 		
 		
 
-//	
-//		Scanner sc = new Scanner(System.in);
+//	    referncing  = object creation 
+//		Scanner sc = new Scanner(System.in);// instanciation of an object
 //		String name = sc.next();
 //		sc.close();
 //		System.out.println("welcome to java "+name);
@@ -94,17 +99,17 @@ public class ObjectsDemo
 //		loki.name = "lokesh";
 //		loki.id = 5658;
 //		loki.sal = 500000;
-////		loki.ceo = "mark";
+//		loki.ceo = "lary";
 //		
 //		Emp abhi = new Emp();
 //		abhi.name = "abhishek";
 //		abhi.id = 5686;
 //		abhi.sal = 450000;
-////		abhi.ceo = "mark";
-//		Emp.ceo = "john";
-//		
-//	
-//		
+//		abhi.ceo = "mark";
+////		
+////		
+////	
+////		
 //		loki.showEmp();
 //		System.out.println("----------------------");
 //		abhi.showEmp();
