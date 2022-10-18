@@ -1,0 +1,99 @@
+class person {
+name 
+age
+hight 
+-------------
+walk()
+talk()
+}
+
+
+class indian inherit person{
+eatingIdlys()
+}ingle level inheritance
+
+class banglooren inherit indian{
+drinkingCoffee()
+}
+
+
+
+class indian{
+name 
+age
+hight 
+-------------
+walk()
+talk()
+eatingidlys()
+} single level inheritance
+
+
+class banglooren{
+name 
+age
+hight 
+-------------
+walk()
+talk()
+eatingidlys()
+drinkingCoffee()
+}malti level inheritance  
+
+
+
+multiple inheritance 
+class A {
+show()
+}
+class B {
+show()
+}
+class C inherits A,B{
+
+}
+
+C ce = new C();
+ce.show();//ambiguity problem
+java dosnt support multiple inheritance 
+-> interfaces 
+
+
+
+
+this -> refering to the class variabls 
+static -> to make any class elements class specific 
+super -> used to call or use the super class elements 
+
+
+over loading -> adding more arguments to the same method inside a same class
+over riding -> having a diffrent method routines that a super class has // consists of same name as the inherited class method 
+
+
+
+access modifiers
+
+public -> accessed all over java project  
+private -> only be accessed with in the class 
+protected -> can be accessed by derived class and packages 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
