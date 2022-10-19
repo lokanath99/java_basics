@@ -1,7 +1,5 @@
 package classesnobjects;
 //static example
-
-
 public class Emp {
 	String name;//null
 	int id;//0

@@ -6,6 +6,10 @@ public class ObjectsDemo
 {
 	public static void main(String[] args) 
 	{
+		Emp e1 = new Emp();//emp3453
+		Boolean res = e1 instanceof Emp;
+		System.out.println(res);
+		
 		
 //		num = {1,3,5,7,9}
 //		       0 1 2 3 4 
@@ -82,8 +86,6 @@ public class ObjectsDemo
 //		System.out.println(num[3]);
 //		System.out.println(num[4]);
 //		
-		
-		
 		
 		
 

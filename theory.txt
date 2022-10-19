@@ -78,6 +78,27 @@ private -> only be accessed with in the class
 protected -> can be accessed by derived class and packages 
 
 
+abs clas printer{
+abs printing();
+}
+
+
+hp extend printer {
+
+printing(String){
+sysout(str)
+}
+
+}
+
+canon extend printer{
+
+printing(String){
+sysout(str)
+}
+
+
+}
 
 
 
