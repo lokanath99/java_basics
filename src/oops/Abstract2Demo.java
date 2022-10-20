@@ -1,24 +1,24 @@
 package oops;
 
-abstract class Printer{
-	abstract public void printing();
+abstract class Writing{
+	abstract public void write();
 }
 
-class HpPrinter extends Printer{
-	public void printing() {
-		System.out.println("Hp is Printing ........");
+class Pen extends Writing{
+	public void write() {
+		System.out.println("pen ........");
 	}
 }
 
-class CanonPrinter extends Printer{
-	public void printing() {
-		System.out.println("Canon is Printing ........");
+class Pencil extends Writing{
+	public void write() {
+		System.out.println("pencil ........");
 	}
 }
 
-class PrintHelper{
-	public void prints(Printer i) {
-		i.printing();
+class WriteHelper{
+	public void writs(Writing i) {
+		i.write();
 	}
 }
 
@@ -27,10 +27,10 @@ public class Abstract2Demo
 
 	public static void main(String[] args) 
 	{
-		HpPrinter h = new HpPrinter();
-		CanonPrinter c = new CanonPrinter();
-		PrintHelper p = new PrintHelper();
-		p.prints(h);
+		Writing p = new Pen();
+		Writing pe = new Pencil();
+		WriteHelper wh = new WriteHelper();
+		wh.writs(pe);
 	
 	}
 

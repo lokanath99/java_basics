@@ -101,6 +101,35 @@ sysout(str)
 }
 
 
+abs writing{ 
+abs void write();
+}
+pen{
+write(){
+}
+}
+pencil{
+write(){
+}
+}
+class writeHelper{
+	Writeable(Writing p ){
+	p.write()
+}
+main{
+Writing P = new pen()
+Writing pe= new pencin();
+writeHelper wh = new writehelper();
+wh.writable()
+
+}
+
+
+types of interfaces
+1. normal -> more than 1 methods
+2. single abstract method(SAM) -> only 1 abstract method (functional interface)
+3. marker interface -> no methods 
+
 
 
 
